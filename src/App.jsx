@@ -1,8 +1,10 @@
 import "./App.css";
-console.log("i ii ii iHello world");
+import { Button } from "./ui/components";
+
 function App() {
   return (
     <div>
+      <Button>Press me </Button>
       <h1 className="border-green-100  bg-gray-800 p-4 pt-2 text-vuejs md:p-3">
         Hello world
       </h1>

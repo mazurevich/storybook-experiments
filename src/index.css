@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Path: src\index.css */
+@layer base {
+  button {
+    @apply transition-colors duration-200 ease-in-out;
+  }
+}
